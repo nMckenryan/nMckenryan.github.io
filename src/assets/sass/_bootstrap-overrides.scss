@@ -1,0 +1,21 @@
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.text-primary {
+  color: $tertiary !important;
+  font-weight: bold;
+}
+
+a {
+  color: $secondary;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $tertiary;
+  }
+}
+
+.btn-primary {
+  background-color: $tertiary;
+}
